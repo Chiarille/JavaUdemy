@@ -1,0 +1,1 @@
+Olá, me chamo Lucas e sejam bem vindos ao meu repositório do curso de Java. Aqui estarei postando todos os arquivos e projetos que serão criados durante o meu processo de aprendizagem.

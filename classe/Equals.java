@@ -13,7 +13,7 @@ public class Equals {
 		u2.email = "l.chiarille@gmail.com";
 		
 		System.out.println(u1 == u2);// false -> faz comparação pelo endereço de memória
-		System.out.println(u1.equals(u2));// false **>> SE <<** não ouver sido implementado um parametro para equals
+		System.out.println(u1.equals(u2));// false **>> SE <<** não houver sido implementado um parametro para equals
 		// na classe do objeto
 		System.out.println(u1.equals(u2));
 		

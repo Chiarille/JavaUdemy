@@ -30,6 +30,8 @@ public class ConjuntoOrganizado {
 		nums.add(5);
 		nums.add(6);
 		
+//		nums.get(1); Não é possivel acessar pelo índice.
+		
 		for (int num: nums) {
 			System.out.println(num);
 		}

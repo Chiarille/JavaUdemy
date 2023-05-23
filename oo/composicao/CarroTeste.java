@@ -12,6 +12,12 @@ public class CarroTeste {
 		
 		System.out.println(c1.motor.giros());
 		
+		c1.porta.abrirPorta(); //Acionamento da trava.
+		
+		System.out.println(c1.porta.travaPorta);
+		
+	//	c1.porta.fecharPorta();
+		
 		c1.acelerar();
 		c1.acelerar();
 		c1.acelerar();
@@ -23,8 +29,9 @@ public class CarroTeste {
 		c1.frear();
 		c1.frear();
 		c1.frear();
-		
+	
 		System.out.println(c1.motor.giros());
+		System.out.println(c1.estaLigado());
 		
 //		Faltou Encapsulamento!!!
 //		c1.motor.fatorInjecao = -30;
